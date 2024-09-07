@@ -1,4 +1,4 @@
-package main
+package utils
 
 import (
 	"bufio"
@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func read_csv(filename string) map[string][]float64 {
+func Read_csv(filename string) map[string][]float64 {
 	file, err := os.Open(filename)
 	if err != nil {
 		panic("file not found")

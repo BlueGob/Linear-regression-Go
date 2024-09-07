@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"math/rand"
+	"root/utils"
 	"strings"
 )
 
@@ -17,7 +18,7 @@ func main() {
 
 	handleErrors(file, y_column)
 
-	csv := read_csv(*file)
+	csv := utils.Read_csv(*file)
 	_, exist := csv[*y_column]
 	if !exist {
 		panic("Column not found")
