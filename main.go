@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"lr/regression"
+
+	"github.com/BlueGob/Linear-regression-Go/regression"
 )
 
 func main() {

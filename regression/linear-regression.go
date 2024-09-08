@@ -1,8 +1,9 @@
 package regression
 
 import (
-	"lr/utils"
 	"math/rand"
+
+	"github.com/BlueGob/Linear-regression-Go/utils"
 )
 
 type LinearRegression struct {
