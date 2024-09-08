@@ -35,7 +35,7 @@ It includes various evaluation metrics such as R² (R-squared), Mean Squared Err
 
     import (
         "fmt"
-        "github.com/BlueGob/Linear-regression-Go/regression/regression"
+        "github.com/BlueGob/Linear-regression-Go/regression"
     )
 
     func main() {
