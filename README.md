@@ -7,28 +7,12 @@ It includes various evaluation metrics such as R² (R-squared), Mean Squared Err
 - Calculate MAE, MSE, and R²
 - Make predictions based on the model
 ## Getting Started
-### Installation
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/yourusername/simple-linear-regression-go.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd simple-linear-regression-go
-    ```
-
-3. Install Go modules:
-
-    ```bash
-    go mod tidy
-    ```
 ### Usage
-
-1. Create a Go file (`main.go`) with the following content:
+1. ```bash
+   go get github.com/BlueGob/Linear-regression-Go
+   ``` 
+2. Create a Go file (`main.go`) with the following content:
 
     ```go
     package main
