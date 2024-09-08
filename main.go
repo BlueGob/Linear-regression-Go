@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"root/regression"
+	"lr/regression"
 )
 
 func main() {

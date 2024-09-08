@@ -1,8 +1,8 @@
 package regression
 
 import (
+	"lr/utils"
 	"math/rand"
-	"root/utils"
 )
 
 type LinearRegression struct {
