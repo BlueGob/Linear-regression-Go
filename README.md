@@ -35,7 +35,7 @@ It includes various evaluation metrics such as R² (R-squared), Mean Squared Err
 
     import (
         "fmt"
-        "root/regression"
+        "lr/regression"
     )
 
     func main() {
